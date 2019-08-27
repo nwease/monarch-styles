@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/items/Items.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/items/styles/items.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/preview/Preview.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/preview/styles/preview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/Shop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/Directory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/Directory.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +73,16 @@
       <workItem from="1566550497401" duration="3031000" />
       <workItem from="1566578166842" duration="550000" />
       <workItem from="1566579759514" duration="9087000" />
-      <workItem from="1566897370244" duration="488000" />
+      <workItem from="1566897370244" duration="4902000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
+      <created>1566897993783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566897993783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated menu to navigate using withRouter in react router." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated menu to navigate using withRouter in react router." />
   </component>
 </project>
