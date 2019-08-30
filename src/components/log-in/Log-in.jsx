@@ -28,45 +28,45 @@ class LogIn extends Component {
     };
 
     render() {
-        return (
-            <div className='log-in'>
-                <h2>
-                    Have an account?
-                </h2>
+        return <div className='log-in'>
+            <h2>
+                Have an account?
+            </h2>
 
-                <span>
+            <span>
                     Enter your email and password
                 </span>
 
-                <form onSubmit={this.handleSubmit}>
-                    <Input
-                        name='email'
-                        type='email'
-                        value={this.state.email}
-                        label='email'
-                        handleChange={this.handleChange}
-                        required
-                    />
+            <form onSubmit={this.handleSubmit}>
+                <Input
+                    name='email'
+                    type='email'
+                    value={this.state.email}
+                    label='email'
+                    handleChange={this.handleChange}
+                    required
+                />
 
-                    <Input
-                        name='password'
-                        type='password'
-                        value={this.state.email}
-                        label='password'
-                        handleChange={this.handleChange}
-                        required
-                    />
+                <Input
+                    name='password'
+                    type='password'
+                    value={this.state.email}
+                    label='password'
+                    handleChange={this.handleChange}
+                    required
+                />
 
+                <div className='buttons'>
                     <Button type='submit'>
-                        Log In
+                        Sign In
                     </Button>
 
-                    <Button onClick={signInWithGoogle}>
-                        Log in with Google
+                    <Button className='button' onClick={signInWithGoogle} isGoogleSignIn>
+                        Google log in
                     </Button>
-                </form>
-            </div>
-        );
+                </div>
+            </form>
+        </div>;
     }
 }
 
