@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/input.scss';
 
 const Input = ({handleChange, label, ...otherProps}) => {
     return (
