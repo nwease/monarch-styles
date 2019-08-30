@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Input from '../input/Input';
 import Button from '../buttons/Button';
+import { signInWithGoogle } from '../../firebase/firebase.utils';
 import './styles/log-in.scss';
 
 class LogIn extends Component {
@@ -30,7 +31,7 @@ class LogIn extends Component {
         return (
             <div className='log-in'>
                 <h2>
-                    LOGIN
+                    Have an account?
                 </h2>
 
                 <span>
@@ -57,7 +58,11 @@ class LogIn extends Component {
                     />
 
                     <Button type='submit'>
-                        Submit
+                        Log In
+                    </Button>
+
+                    <Button onClick={signInWithGoogle}>
+                        Log in with Google
                     </Button>
                 </form>
             </div>
