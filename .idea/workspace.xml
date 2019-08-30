@@ -4,9 +4,10 @@
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/components/input/Input.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/input/styles/input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/login-out/Login-out.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/login-out/styles/login-out.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/register/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/log-in/Log-in.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/log-in/styles/log-in.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/log-in-and-register/Log-in-and-Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/log-in-and-register/styles/log-in-and-register.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -79,7 +80,7 @@
       <workItem from="1566897370244" duration="14430000" />
       <workItem from="1567056228050" duration="648000" />
       <workItem from="1567091604179" duration="1772000" />
-      <workItem from="1567148375821" duration="1400000" />
+      <workItem from="1567148375821" duration="5106000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566978474585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Began signin page and tried to fix some bugs.">
+      <created>1567150054168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567150054168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +134,7 @@
     <MESSAGE value="Updated menu to navigate using withRouter in react router." />
     <MESSAGE value="Began working on styling changes." />
     <MESSAGE value="Added Header component and links to home as well as some styling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Header component and links to home as well as some styling." />
+    <MESSAGE value="Began signin page and tried to fix some bugs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Began signin page and tried to fix some bugs." />
   </component>
 </project>
