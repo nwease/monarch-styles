@@ -4,11 +4,7 @@
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/Input.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up/Sign-up.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/Sign-up.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up/styles/sign-up.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/styles/sign-up.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/log-in-and-register/Log-in-and-Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/log-in-and-register/Log-in-and-Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/log-in-and-register/styles/log-in-and-register.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/log-in-and-register/styles/log-in-and-register.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/log-in/Log-in.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/log-in/Log-in.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +76,7 @@
       <workItem from="1567056228050" duration="648000" />
       <workItem from="1567091604179" duration="1772000" />
       <workItem from="1567148375821" duration="24291000" />
-      <workItem from="1567493231681" duration="7862000" />
+      <workItem from="1567493231681" duration="8681000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -152,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567497026484</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Firebase utis implemented. Ability to store authenticated usernames and passwords for database.">
+      <created>1567501830589</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567501830590</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +186,7 @@
     <MESSAGE value="Continued setup of firebase and authentication." />
     <MESSAGE value="Finished firebase integration and created a login page in components." />
     <MESSAGE value="After much trouble finished with firebase for not began working on sign-up component." />
-    <option name="LAST_COMMIT_MESSAGE" value="After much trouble finished with firebase for not began working on sign-up component." />
+    <MESSAGE value="Firebase utis implemented. Ability to store authenticated usernames and passwords for database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Firebase utis implemented. Ability to store authenticated usernames and passwords for database." />
   </component>
 </project>
