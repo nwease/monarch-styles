@@ -13,9 +13,44 @@ class SignUp extends Component {
             displayName: '',
             email: '',
             password: '',
-            displayPassword: ''
+            confirmPassword: ''
         }
     }
+
+    handleSubmit = async event => {
+        event.preventDefault();
+
+        const { displayName, email, password, confirmPassword } = this.state;
+
+        if (password !== confirmPassword) {
+            alert('Password does not match');
+            return;
+        }
+        
+        try {
+            const {user} = await auth.createUserWithEmailAndPassword(
+                email,
+                password
+            );
+
+            await createUserProfileDocument(user, {displayName});
+
+            this.setState({
+                displayName: '',
+                email: '',
+                password: '',
+                confirmPassword: ''
+            })
+        } catch (error) {
+            console.error(error);
+        }
+    };
+
+    handleChange = event => {
+        const {name, value} = event.target;
+
+        this.setState({[name]: value});
+    };
 
     render() {
 
@@ -24,7 +59,7 @@ class SignUp extends Component {
         return (
             <div className='sign-up'>
                 <h2 className='title'>
-                    Do not have an account
+                    Do not have an account?
                 </h2>
 
                 <span>
@@ -38,35 +73,39 @@ class SignUp extends Component {
                         value={displayName}
                         onChange={this.handleChange}
                         label='Display Name'
-                        requied
+                        required
                     />
 
                     <Input
-                        type='text'
-                        name='displayName'
-                        value={displayName}
+                        type='email'
+                        name='email'
+                        value={email}
                         onChange={this.handleChange}
-                        label='Display Name'
-                        requied
+                        label='Email'
+                        required
                     />
 
                     <Input
-                        type='text'
-                        name='displayName'
-                        value={displayName}
+                        type='password'
+                        name='password'
+                        value={password}
                         onChange={this.handleChange}
-                        label='Display Name'
-                        requied
+                        label='Password'
+                        required
                     />
 
                     <Input
-                        type='text'
-                        name='displayName'
-                        value={displayName}
+                        type='password'
+                        name='confirmPassword'
+                        value={confirmPassword}
                         onChange={this.handleChange}
-                        label='Display Name'
-                        requied
+                        label='Confirm Password'
+                        required
                     />
+
+                    <Button type='submit'>
+                        SIGN UP
+                    </Button>
                 </form>
             </div>
         );
