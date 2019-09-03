@@ -34,8 +34,8 @@ class LogIn extends Component {
             </h2>
 
             <span>
-                    Enter your email and password
-                </span>
+                Enter your email and password
+            </span>
 
             <form onSubmit={this.handleSubmit}>
                 <Input

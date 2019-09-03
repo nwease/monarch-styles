@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up/Sign-up.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up/styles/sign-up.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/styles/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/styles/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/styles/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/log-in/Log-in.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/log-in/Log-in.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/log-in/styles/log-in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/log-in/styles/log-in.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +79,8 @@
       <workItem from="1566897370244" duration="14430000" />
       <workItem from="1567056228050" duration="648000" />
       <workItem from="1567091604179" duration="1772000" />
-      <workItem from="1567148375821" duration="14508000" />
+      <workItem from="1567148375821" duration="24291000" />
+      <workItem from="1567493231681" duration="3584000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -139,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567186296117</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finished firebase integration and created a login page in components.">
+      <created>1567190149367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567190149367</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +174,7 @@
     <MESSAGE value="Finished first part of login component." />
     <MESSAGE value="Began setup of firebase." />
     <MESSAGE value="Continued setup of firebase and authentication." />
-    <option name="LAST_COMMIT_MESSAGE" value="Continued setup of firebase and authentication." />
+    <MESSAGE value="Finished firebase integration and created a login page in components." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished firebase integration and created a login page in components." />
   </component>
 </project>
