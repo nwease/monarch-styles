@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/user/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/shopping-bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/Cart-Icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/styles/cart-icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/Cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/styles/cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart-types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +85,7 @@
       <workItem from="1567091604179" duration="1772000" />
       <workItem from="1567148375821" duration="24291000" />
       <workItem from="1567493231681" duration="9603000" />
-      <workItem from="1567521477140" duration="6633000" />
+      <workItem from="1567521477140" duration="11545000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -173,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567525164421</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated app to redirect to home if user is logged in.">
+      <created>1567582055550</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1567582055551</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +219,7 @@
     <MESSAGE value="Firebase utis implemented. Ability to store authenticated usernames and passwords for database." />
     <MESSAGE value="Finished login handleSubmit method." />
     <MESSAGE value="Began setup of redux." />
-    <option name="LAST_COMMIT_MESSAGE" value="Began setup of redux." />
+    <MESSAGE value="Updated app to redirect to home if user is logged in." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated app to redirect to home if user is logged in." />
   </component>
 </project>
