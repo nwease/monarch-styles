@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart-utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/styles/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/styles/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/Items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/Items.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items/styles/items.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/styles/items.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preview/Preview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview/Preview.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-types.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +80,7 @@
       <workItem from="1567493231681" duration="9603000" />
       <workItem from="1567521477140" duration="13515000" />
       <workItem from="1567668538117" duration="19000" />
-      <workItem from="1567668598222" duration="2763000" />
+      <workItem from="1567668598222" duration="4095000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -192,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567587591464</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added new actions and defined it for item cart.">
+      <created>1567671922823</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1567671922824</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +230,7 @@
     <MESSAGE value="Began setup of redux." />
     <MESSAGE value="Updated app to redirect to home if user is logged in." />
     <MESSAGE value="Added cart icon and cart dropdown components." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added cart icon and cart dropdown components." />
+    <MESSAGE value="Added new actions and defined it for item cart." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new actions and defined it for item cart." />
   </component>
 </project>
