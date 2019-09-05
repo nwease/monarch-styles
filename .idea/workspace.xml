@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/shopping-bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/Cart-Icon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/styles/cart-icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart/Cart.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart/styles/cart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart-types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/styles/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/styles/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/Items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/Items.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/styles/items.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/styles/items.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preview/Preview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview/Preview.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-types.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +83,9 @@
       <workItem from="1567091604179" duration="1772000" />
       <workItem from="1567148375821" duration="24291000" />
       <workItem from="1567493231681" duration="9603000" />
-      <workItem from="1567521477140" duration="11545000" />
+      <workItem from="1567521477140" duration="13515000" />
+      <workItem from="1567668538117" duration="19000" />
+      <workItem from="1567668598222" duration="2763000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567582055551</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added cart icon and cart dropdown components.">
+      <created>1567587591464</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1567587591464</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +227,7 @@
     <MESSAGE value="Finished login handleSubmit method." />
     <MESSAGE value="Began setup of redux." />
     <MESSAGE value="Updated app to redirect to home if user is logged in." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated app to redirect to home if user is logged in." />
+    <MESSAGE value="Added cart icon and cart dropdown components." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added cart icon and cart dropdown components." />
   </component>
 </project>
