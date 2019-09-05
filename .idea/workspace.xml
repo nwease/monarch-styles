@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/Checkout-Item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/styles/checkout-items.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/Checkout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/styles/checkout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user-selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/Cart-Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/Cart-Icon.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart/styles/cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/styles/cart.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/Checkout-Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/Checkout-Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/styles/checkout-items.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/styles/checkout-items.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-utils.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +84,7 @@
       <workItem from="1567521477140" duration="13515000" />
       <workItem from="1567668538117" duration="19000" />
       <workItem from="1567668598222" duration="14417000" />
-      <workItem from="1567696284426" duration="1243000" />
+      <workItem from="1567696284426" duration="4796000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -224,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567678972022</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added checkout page and item component and updated cart with selectors.">
+      <created>1567697742053</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1567697742053</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +266,7 @@
     <MESSAGE value="Shop data updated. Cart utils updated for grouping in the cart." />
     <MESSAGE value="Creatd Cart item component and connected dropdown with reducer." />
     <MESSAGE value="Updated app with reselect, replaced cart selectors with memoized selectors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated app with reselect, replaced cart selectors with memoized selectors." />
+    <MESSAGE value="added checkout page and item component and updated cart with selectors." />
+    <option name="LAST_COMMIT_MESSAGE" value="added checkout page and item component and updated cart with selectors." />
   </component>
 </project>
