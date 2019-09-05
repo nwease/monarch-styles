@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/cart-item/Cart-Item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-item/styles/cart-item.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart-selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/Cart-Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/Cart-Icon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,7 @@
       <workItem from="1567493231681" duration="9603000" />
       <workItem from="1567521477140" duration="13515000" />
       <workItem from="1567668538117" duration="19000" />
-      <workItem from="1567668598222" duration="5876000" />
+      <workItem from="1567668598222" duration="8713000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567673805944</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Creatd Cart item component and connected dropdown with reducer.">
+      <created>1567675514344</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1567675514344</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +247,7 @@
     <MESSAGE value="Added cart icon and cart dropdown components." />
     <MESSAGE value="Added new actions and defined it for item cart." />
     <MESSAGE value="Shop data updated. Cart utils updated for grouping in the cart." />
-    <option name="LAST_COMMIT_MESSAGE" value="Shop data updated. Cart utils updated for grouping in the cart." />
+    <MESSAGE value="Creatd Cart item component and connected dropdown with reducer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creatd Cart item component and connected dropdown with reducer." />
   </component>
 </project>
