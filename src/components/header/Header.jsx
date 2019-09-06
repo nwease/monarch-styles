@@ -15,7 +15,7 @@ const Header = ({currentUser, hidden}) => {
         <div className='header'>
             <Link classsName='container' to='/'>
                 <Logo className='logo' />
-                <h1>Monarch Styles</h1>
+                {/*<h1>Monarch Styles</h1>*/}
             </Link>
 
             <div className='options'>

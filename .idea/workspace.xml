@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/collections/Collections.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collections/styles/collections.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/collection/Collection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/collection/styles/collection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop-selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/Directory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/Directory.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/Shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/Shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +48,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux/shop" />
       <recent name="$PROJECT_DIR$/src/components/input" />
       <recent name="$PROJECT_DIR$/src/pages/login/login-out" />
       <recent name="$PROJECT_DIR$/src/pages/login" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/pages/login-and-out/login" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -83,7 +91,7 @@
       <workItem from="1567521477140" duration="13515000" />
       <workItem from="1567668538117" duration="19000" />
       <workItem from="1567668598222" duration="14417000" />
-      <workItem from="1567696284426" duration="8219000" />
+      <workItem from="1567696284426" duration="16241000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -232,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567701481295</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added redux-persistor.">
+      <created>1567757238639</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1567757238640</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +289,7 @@
     <MESSAGE value="Updated app with reselect, replaced cart selectors with memoized selectors." />
     <MESSAGE value="added checkout page and item component and updated cart with selectors." />
     <MESSAGE value="Added addItem and removeItem functionality." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added addItem and removeItem functionality." />
+    <MESSAGE value="added redux-persistor." />
+    <option name="LAST_COMMIT_MESSAGE" value="added redux-persistor." />
   </component>
 </project>
