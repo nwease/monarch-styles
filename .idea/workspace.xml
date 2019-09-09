@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/buttons/Button.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/Cart.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/homepage/HomePage.styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/styles/button.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +100,7 @@
       <workItem from="1567668598222" duration="14417000" />
       <workItem from="1567696284426" duration="22170000" />
       <workItem from="1567957632861" duration="6340000" />
-      <workItem from="1568013882531" duration="1700000" />
+      <workItem from="1568013882531" duration="8067000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -276,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567964168362</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Removed redux-logger from production build.">
+      <created>1568016058181</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1568016058182</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +312,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Began working on styling changes." />
     <MESSAGE value="Added Header component and links to home as well as some styling." />
     <MESSAGE value="Began signin page and tried to fix some bugs." />
     <MESSAGE value="Setup login pages and began initial styling." />
@@ -322,6 +336,7 @@
     <MESSAGE value="Did a whole bunch of stuff I dont quite understand." />
     <MESSAGE value="Began stripe payments integration." />
     <MESSAGE value="Updated more stripe integration along with updated favicon and title." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated more stripe integration along with updated favicon and title." />
+    <MESSAGE value="Removed redux-logger from production build." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed redux-logger from production build." />
   </component>
 </project>
