@@ -1,12 +1,13 @@
 import React from 'react';
-import './styles/cart-item.scss';
+import { CartItemContainer, CartItemImage, DetailsContainer } from "./Cart-Item.styles";
+// import './styles/cart-item.scss';
 
 const CartItem = ({item: {imageUrl, price, name, quantity}}) => {
     return (
-        <div className='cart-item'>
-            <img src={imageUrl} alt='item' />
+        <CartItemContainer>
+            <CartItemImage src={imageUrl} alt='item' />
 
-            <div className='details'>
+            <DetailsContainer>
                 <span className='name'>
                     {name}
                 </span>
@@ -14,8 +15,8 @@ const CartItem = ({item: {imageUrl, price, name, quantity}}) => {
                 <span className='price'>
                     {quantity} x ${price}
                 </span>
-            </div>
-        </div>
+            </DetailsContainer>
+        </CartItemContainer>
     );
 };
 

@@ -2,17 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5550902e-2b4e-4575-bb41-38cc9c019447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/buttons/Button.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart/Cart.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/homepage/HomePage.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/buttons/styles/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/Cart-Icon.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-item/Cart-Item.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/Checkout-Item.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/Collection-Preview.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/styles/collection-preview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/Collections-Overview.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/directory/Directory.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input/Input.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/items/Items.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/log-in/Log-in.styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/buttons/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/styles/button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/Button.styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/Button.styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/Cart-Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/Cart-Icon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-item/Cart-Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-item/Cart-Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart/Cart.styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/Cart.styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart/styles/cart.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/Checkout-Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/Checkout-Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collections/Collections.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collections-overview/Collections-Overview.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collections/styles/collections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collections-overview/styles/collections-overview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/Directory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/Directory.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/Input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/items/styles/items.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items/styles/items.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/homepage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/styles/HomePage.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/Shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/Shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +122,9 @@
       <workItem from="1567668598222" duration="14417000" />
       <workItem from="1567696284426" duration="22170000" />
       <workItem from="1567957632861" duration="6340000" />
-      <workItem from="1568013882531" duration="8067000" />
+      <workItem from="1568013882531" duration="25624000" />
+      <workItem from="1568211944909" duration="4841000" />
+      <workItem from="1568273774681" duration="1219000" />
     </task>
     <task id="LOCAL-00001" summary="Updated menu to navigate using withRouter in react router.">
       <created>1566897993783</created>
@@ -291,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568016058182</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Began restyling using styled components.">
+      <created>1568025014501</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1568025014501</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +343,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added Header component and links to home as well as some styling." />
     <MESSAGE value="Began signin page and tried to fix some bugs." />
     <MESSAGE value="Setup login pages and began initial styling." />
     <MESSAGE value="Finished first part of login component." />
@@ -337,6 +367,7 @@
     <MESSAGE value="Began stripe payments integration." />
     <MESSAGE value="Updated more stripe integration along with updated favicon and title." />
     <MESSAGE value="Removed redux-logger from production build." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed redux-logger from production build." />
+    <MESSAGE value="Began restyling using styled components." />
+    <option name="LAST_COMMIT_MESSAGE" value="Began restyling using styled components." />
   </component>
 </project>

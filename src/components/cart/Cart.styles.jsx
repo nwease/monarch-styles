@@ -15,6 +15,18 @@ export const DropdownContainer = styled.div `
     z-index: 5;
 `;
 
-export const DropDownButton = styled(Button) `
+export const ButtonContainer = styled(Button) `
     margin-top: auto;
+`;
+
+export const EmptyMessageContainer = styled.span `
+    font-size: 18px;
+    margin: 50px auto;
+`;
+
+export const ItemsContainer = styled.div `
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
 `;

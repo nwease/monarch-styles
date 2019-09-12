@@ -1,20 +1,21 @@
 import React from 'react';
-import './styles/input.scss';
+import { GroupContainer, InputContainer, InputLabelContainer } from './Input.styles';
+// import './styles/input.scss';
 
 const Input = ({handleChange, label, ...otherProps}) => (
-    <div className='group'>
-        <input className='input' onChange={handleChange} {...otherProps} />
+    <GroupContainer>
+        <InputContainer onChange={handleChange} {...otherProps} />
 
         {label ? (
-            <label
+            <InputLabelContainer
                 className={`${
                     otherProps.value.length ? 'shrink' : ''
                 } input-label`}
             >
                 {label}
-            </label>
+            </InputLabelContainer>
         ) : null}
-    </div>
+    </GroupContainer>
 );
 
 export default Input;
